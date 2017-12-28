@@ -1,28 +1,31 @@
 import React from 'react';
-import {View, Text, StyleSheet} from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
 
 const Header = () => {
+    console.log('debuggin');    
     return (
         <View style={headerContainer}>
             <Text style={header}>
-                HALA MADRID APP
+            HALA MADRID APP
             </Text>
         </View>
     )
 }
 
+
 const styles = StyleSheet.create({
     headerContainer: {
         display: "flex",
         marginTop: 55,
-        alignItems: "center"
+        alignItems: "center",
     },
     header: {
-        fontWeight: "bold",
-        fontSize: 20
+        fontWeight: "bold",        
+        fontSize: 20,
     }
-});
+})
 
-const {headerContainer, header} = styles;
+const { headerContainer, header } = styles;
+
 
 export default Header;

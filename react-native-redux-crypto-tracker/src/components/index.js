@@ -1,4 +1,4 @@
 import Header from './Header.js';
-import CryptoContainer from './CryptoContainer.js';
+import CryptoContainer from './CryptoContainer';
 
-export {Header, CryptoContainer};
+export { Header, CryptoContainer };
