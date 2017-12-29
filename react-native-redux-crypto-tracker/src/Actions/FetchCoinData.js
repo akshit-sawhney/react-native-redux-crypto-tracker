@@ -5,7 +5,6 @@ import {
     FETCHING_COIN_DATA_SUCCESS,
     FETCHING_COIN_DATA_FAIL
 } from './../Utils/ActionTypes';
-console.log("HERE IS THE URL: ", apiBaseURL);
 export default function FetchCoinData() {
     return dispatch => {
         dispatch({type: FETCHING_COIN_DATA})
