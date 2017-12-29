@@ -19,7 +19,7 @@ class CryptoContainer extends Component {
                 key={coin.name}
                 coin_name={coin.name}
                 symbol={coin.symbol}
-                price_usd={coin.price_usd}
+                price_inr={(coin.price_usd)*(crypto.forexRate || 1)}
                 percent_change_24h={coin.percent_change_24h}
                 percent_change_7d={coin.percent_change_7d}
             />
